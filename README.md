@@ -2,6 +2,7 @@
 
 No server.lua do vrp_adv_garages linha 174 mude o local choose para
 
+```lua
 local choose = function(player, choice)
     local vname = kitems[choice]
     if vname then
@@ -29,3 +30,4 @@ local choose = function(player, choice)
         end
     end
 end
+```
